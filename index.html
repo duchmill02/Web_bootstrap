@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!--menu-->
+  <div id="menu-container"></div>
+
+
+<!--Content-->
+    <div class="container">
+
+        <h3 class="alert alert-success mt-4">หน้าหลัก</h3>
+
+        <div class="alert alert-primary text-center" role="alert">
+            Sastapong Rodkongroj
+        </div>
+
+        <div class="text-center">
+        <a class="btn btn-info" href="https://www.google.com/">google</a>
+        </div>
+
+    </div>
+
+    <div class="container text-center">
+
+        <div class="row">
+          <div class="col-4 bg-primary-subtle">
+            <img src="image/Pic 1.jpg" width="100%">
+            เมนคูน
+          </div>
+          <div class="col-4 bg-info-subtle">
+            ขาวมณี
+            <img src="image/Pic 2.jpg" width="100%"> 
+          </div>
+          <div class="col-4 bg-danger-subtle">
+            <h3 class=mt-4>Register</h3>
+
+            <form class="text-start">
+                <div class="mb-3">
+                    <label class="form-label">First name</label>
+                    <input type="text" class="form-control" id="firstname" required placeholder="Input firstname" >
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lastname" required placeholder="Input lastname" >
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Telephone</label>
+                    <input type="tel" class="form-control" id="phone" required placeholder="Input phone number" >
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Province</label>
+                    <select class="form-select" id="Province" required>
+                        <option selected>เลือกจังหวัด</option>
+                        <option value="ชลบุรี">ชลบุรี</option>
+                        <option value="ระยอง">ระยอง</option>
+                        <option value="เชียงใหม่">เชียงใหม่</option>
+                      </select>
+
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="e-mail" required placeholder="Input phone email" >
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" id="pw" required placeholder="Input password">
+                </div>
+                <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="Reset" class="btn btn-primary">Cancel</button>
+            </div>
+              </form>
+          </div>
+        </div>
+
+      </div>
+
+</body>
+</html>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/menu.js"></script>
