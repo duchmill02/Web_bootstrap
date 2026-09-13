@@ -8,7 +8,42 @@
 </head>
 <body>
     <div id="menu-container"></div>
-    <h3>ลงทะเบียน</h3>  
+    <h3 class="mt-3 text-center">ลงทะเบียน</h3>
+
+    <div class="container  ">
+        <form id="form1">
+
+        <div class="row  ">
+            <div class="col-md-6 mx-auto mt-5 bg-light   rounded">
+                <div class="h3 text-center	text-primary mt-3 ">Register</div>
+                <div class="mb-3 mt-4 ">
+                    <label class="form-label">Firstname - Lastname</label>
+                    <input type="text" class="form-control" id="firstname-lastname" placeholder="firstname - lastname" required>
+                </div>
+                <div class="mb-3 mt-4 ">
+                    <label class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                </div>
+                <div class="mb-3 mt-4 ">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                </div>
+                <div class="mb-3 mt-4 ">
+                    <label class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Address</label>
+                    <textarea class="form-control" id="textDetail" rows="3" placeholder="Address" required></textarea>
+                </div>
+                <div class="text-center mb-4">
+                    <input type="submit" id="submit" class="btn btn-primary" value="Submit">
+                    <input type="reset" id="reset" class="btn btn-danger" value="Cancel">
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
 </body>
 </html>
 
